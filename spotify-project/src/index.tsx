@@ -4,6 +4,8 @@ import App from './App';
 import { store } from './store';
 import { Provider } from 'react-redux';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import './index.css';
+
 
 const queryClient = new QueryClient();
 
